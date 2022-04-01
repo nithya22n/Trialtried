@@ -1,0 +1,118 @@
+/* .App{
+    display: flex;
+  }
+  .navbar {
+    max-width: 10px;
+    max-width: min-content;
+    background-color: gainsboro;
+    padding: 20px;
+  }
+  .navbar .links {
+    display: grid;
+    margin: 50px 0px 0px 20px;
+  }
+   .links a {
+   margin: 20px;
+  }
+  .movies_list{
+    margin: 0px 150px;
+  }
+  .details {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 3px solid gainsboro;
+    width: 1000px;
+  }
+  .details:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.6);
+    border-left: 5px solid midnightblue;
+    background-color:lavender;
+  }
+  .details h2  {
+    font-size: 20px;
+    color: midnightblue;
+    margin-bottom: 8px;
+  } */
+
+
+  .verticle{
+    display: flex;
+    max-width: 20px;
+    max-width: min-content;
+    background-color: gainsboro;
+    padding: 20px;
+  }
+
+    .App{
+    display: flex;
+   }
+ .list li{
+   list-style: none;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+.images{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+.login{
+  display: flex;
+ 
+}
+input{
+  height: 30px;
+  width: 500px;
+  background-color: rgba(201, 199, 199, 0.849);
+  border-radius: 2px;
+  border-color: rgba(231, 226, 226, 0.815);
+ 
+}
+button{
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  background-color: aqua;
+  border-radius: 5px;
+
+}
+.remember{
+  justify-content:space-around;
+   display: flex;
+  }
+
+  .remember p{
+   margin: 0px;
+  }
+
+.remember input{
+  height: 15px;
+  width: 15px;
+  padding-left: 0px;
+
+}
+.pic img{
+  height: 500px;
+  width: 500px;
+  padding-left: 25px;
+}
+.log{
+  margin-left: 25PX;
+}
+
+p{
+  margin-bottom: 4px;
+}
+
+.add{
+  align-items: center;
+  justify-content:center;
+  margin: 200px;
+ background-color: rgba(218, 208, 208, 0.863);
+ border: rgba(223, 218, 218, 0.918);
+ box-shadow:violet 2px;
+}
